@@ -23,7 +23,7 @@
 
 ## 📖 About
 
-**Green Calculator** is a simple and responsive calculator designed with a modern green-themed interface. It performs basic arithmetic operations while providing a smooth user experience with keyboard support, responsive layout, and elegant button animations.
+**Green Calculator** is a modern and responsive web calculator built using **HTML**, **CSS**, and **JavaScript**. It offers a clean green-themed interface, supports basic arithmetic operations, keyboard shortcuts, and smooth animations, making everyday calculations simple and intuitive.
 
 ---
 
@@ -39,10 +39,12 @@
 - ⌨️ Keyboard Support
 - 📱 Responsive Design
 - 🎨 Modern Green UI
+- ⚡ Smooth Button Animations
+- ❌ Error Handling
 
 ---
 
-## 🛠️ Built With
+## 🛠️ Technologies Used
 
 - 🌐 HTML5
 - 🎨 CSS3
@@ -67,25 +69,25 @@ Green-Calculator/
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
+### Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/Green-Calculator.git
+git clone https://github.com/CodeWithRipun/Green-Calculator.git
 ```
 
-### 2. Open the Project
+### Run the Project
 
-Open the project folder and double-click **index.html** to launch the calculator in your browser.
+Open **index.html** in your web browser.
 
-No installation or external libraries are required.
+No installation or additional libraries are required.
 
 ---
 
 ## ⌨️ Keyboard Shortcuts
 
-| Key | Action |
-|------|--------|
-| 0–9 | Enter Numbers |
+| Key | Function |
+|------|----------|
+| 0–9 | Numbers |
 | + - * / | Operators |
 | % | Percentage |
 | Enter | Calculate |
@@ -96,7 +98,7 @@ No installation or external libraries are required.
 
 ## 📱 Responsive Design
 
-The calculator works on:
+Compatible with:
 
 - 💻 Desktop
 - 💼 Laptop
@@ -105,33 +107,21 @@ The calculator works on:
 
 ---
 
-## 🎯 Future Improvements
-
-- 🌙 Dark Mode
-- 🧮 Scientific Calculator
-- 📝 Calculation History
-- 🌊 Ripple Button Effects
-- 📋 Copy Result Button
-- 💾 Local Storage Support
-- 🔊 Button Click Sound
-
----
-
 ## 👨‍💻 Author
 
-**Ripun Kalita**
+### **Ripun Kalita**
 
 🎓 First-Year B.Tech CSE (AI & ML) Student
 
 💻 Aspiring AI Engineer | Software Developer
 
-GitHub: **https://github.com/YOUR_GITHUB_USERNAME**
+🔗 GitHub: **https://github.com/CodeWithRipun**
 
 ---
 
 ## ⭐ Support
 
-If you found this project helpful, please consider giving it a **⭐ Star** on GitHub.
+If you like this project, please consider giving it a **⭐ Star** on GitHub.
 
 ---
 
