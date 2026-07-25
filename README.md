@@ -37,10 +37,6 @@
 - 🧹 Clear Display
 - ⌫ Delete Last Character
 - ⌨️ Keyboard Support
-- 📱 Responsive Design
-- 🎨 Modern Green UI
-- ⚡ Smooth Button Animations
-- ❌ Error Handling
 
 ---
 
@@ -71,8 +67,9 @@ Green-Calculator/
 
 ### Clone the Repository
 
-```bash
-git clone https://github.com/CodeWithRipun/Green-Calculator.git
+git clone https://github.com/CodeWithRipun/Calculator-Project.git
+
+
 ```
 
 ### Run the Project
