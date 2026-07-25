@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background: linear-gradient(180deg, #f3ffe5, #d7f7b8);
+}
+
+.calculator{
+    width:360px;
+    background: linear-gradient(180deg, #fbfff4, #eefbdc);
+    border-radius:28px;
+    padding:22px;
+    box-shadow:0 18px 40px rgba(95, 164, 61, 0.22);
+    border:2px solid #8bc34a;
+}
+
+.title{
+    text-align:center;
+    color:#4a8f1a;
+    font-size:28px;
+    font-weight:700;
+    margin-bottom:16px;
+}
+
+.display{
+    width:100%;
+    height:86px;
+    border:none;
+    border-radius:18px;
+    outline:none;
+    background:#ffffff;
+    color:#4a8f1a;
+    font-size:38px;
+    text-align:right;
+    padding:16px 18px;
+    margin-bottom:18px;
+    box-shadow: inset 0 0 0 2px #c6e7a6;
+}
+
+.buttons{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:12px;
+}
+
+button{
+    height:68px;
+    border:none;
+    border-radius:50%;
+    font-size:24px;
+    font-weight:500;
+    cursor:pointer;
+    transition:0.15s ease;
+}
+
+button:active{
+    transform:scale(0.94);
+}
+
+.number{
+    background:#f8fff1;
+    color:#4a8f1a;
+    box-shadow:0 3px 10px rgba(139, 195, 74, 0.18);
+}
+
+.number:hover{
+    background:#e8f8d4;
+}
+
+.operator{
+    background:#8bc34a;
+    color:#ffffff;
+    box-shadow:0 3px 10px rgba(139, 195, 74, 0.28);
+}
+
+.operator:hover{
+    background:#78b33d;
+}
+
+.equal{
+    background: linear-gradient(180deg, #8bc34a, #5fa43d);
+    color:#ffffff;
+    grid-column:span 2;
+    border-radius:34px;
+}
+
+.equal:hover{
+    background: linear-gradient(180deg, #9bd55a, #6ab847);
+}
+
+.clear{
+    background:#d6f5a3;
+    color:#355d14;
+}
+
+.clear:hover{
+    background:#e3f7bb;
+}
+
+.delete{
+    background:#bfe68a;
+    color:#355d14;
+}
+
+.delete:hover{
+    background:#cfee9d;
+}
+
+.footer{
+    text-align:center;
+    margin-top:16px;
+    color:#5b7d3a;
+    font-size:14px;
+}
+
+@media(max-width:400px){
+    .calculator{
+        width:95%;
+        padding:18px;
+    }
+
+    .display{
+        height:76px;
+        font-size:32px;
+    }
+
+    button{
+        height:60px;
+        font-size:20px;
+    }
+
+    .title{
+        font-size:24px;
+    }
+}
