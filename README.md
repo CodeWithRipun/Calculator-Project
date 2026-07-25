@@ -82,9 +82,11 @@ No installation or additional libraries are required.
 
 ## ⌨️ Keyboard Shortcuts
 
-| Key | Function |
-|------|----------|
-| 0–9 | Numbers |
+## ⌨️ Keyboard Shortcuts
+
+| Key | Action |
+|------|--------|
+| 0–9 | Enter Numbers |
 | + - * / | Operators |
 | % | Percentage |
 | Enter | Calculate |
