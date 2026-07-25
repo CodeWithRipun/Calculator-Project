@@ -39,8 +39,6 @@
 - ⌨️ Keyboard Support
 - 📱 Responsive Design
 - 🎨 Modern Green UI
-- ⚡ Smooth Button Animations
-- ❌ Error Handling
 
 ---
 
